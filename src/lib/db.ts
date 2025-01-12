@@ -1,4 +1,4 @@
-export const products = [
+const products = [
   {
     id: "f14a0b9e-3a91-4d70-8f56-d66b62e024d8",
     name: "Camping Tent",
@@ -108,3 +108,7 @@ export const products = [
     category: "Survival",
   },
 ];
+
+export const db = {
+  products,
+};
