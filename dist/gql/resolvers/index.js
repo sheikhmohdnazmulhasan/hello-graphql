@@ -10,5 +10,10 @@ export const resolvers = {
         },
         // get all categories
         categories: () => db.categories,
+        // get single category by id
+        category: (parent, args, context) => {
+            const result = db.categories.find((category) => category.id === args.categoryId);
+            return result;
+        },
     },
 };
