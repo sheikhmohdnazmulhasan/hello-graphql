@@ -5,15 +5,13 @@ export const resolvers = {
         products: () => db.products,
         // get single products
         product: (parent, args, context) => {
-            const result = db.products.find((pd) => pd.id === args.productId);
-            return result;
+            return db.products.find((pd) => pd.id === args.productId);
         },
         // get all categories
         categories: () => db.categories,
         // get single category by id
         category: (parent, args, context) => {
-            const result = db.categories.find((category) => category.id === args.categoryId);
-            return result;
+            return db.categories.find((category) => category.id === args.categoryId);
         },
     },
 };
