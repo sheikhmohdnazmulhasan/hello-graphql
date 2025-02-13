@@ -7,7 +7,7 @@ export const typeDefs = `#graphql
     price: Float!
     quantity: Int!
     onStock: Boolean!
-    category: String!
+    categoryId: String!
   },
 
   type Category {
