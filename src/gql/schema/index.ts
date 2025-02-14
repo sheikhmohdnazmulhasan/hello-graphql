@@ -8,6 +8,7 @@ export const typeDefs = `#graphql
     quantity: Int!
     onStock: Boolean!
     category: Category
+    reviews: [Review]
   },
 
   type Category {
