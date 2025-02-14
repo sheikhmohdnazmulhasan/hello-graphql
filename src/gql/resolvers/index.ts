@@ -25,4 +25,10 @@ export const resolvers = {
       );
     },
   },
+
+  Category: {
+    products: (parent, args, context) => {
+      return db.products.filter((product) => product.categoryId === parent.id);
+    },
+  },
 };
