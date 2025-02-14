@@ -13,7 +13,7 @@ const products = [
     name: "Camping Tent",
     image: "https://example.com/images/tent.jpg",
     description:
-      "A durable and lightweight camping tent suitable for all weather conditions.",
+      "A durable and lightweight campi.ng tent suitable for all weather conditions.",
     price: 120.99,
     quantity: 50,
     onStock: true,
